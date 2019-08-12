@@ -11,14 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".FilterPage"></activity>
         <activity
             android:name=".FeedPage"
             android:label="AWARD"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".WelcomePage"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Welcome Page">
+            android:label="Welcome Page"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

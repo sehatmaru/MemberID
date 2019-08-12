@@ -13,4 +13,10 @@
     <string name="logout">Logout</string>
     <string name="navigation_drawer_open">Open Drawer</string>
     <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="filter">Filter</string>
+    <string name="all_type">All Type</string>
+    <string name="vouchers">Vouchers</string>
+    <string name="products">Products</string>
+    <string name="others">Others</string>
+    <string name="awards_type">Awards Type</string>
 </resources>

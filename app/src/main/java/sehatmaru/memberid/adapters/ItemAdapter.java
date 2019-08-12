@@ -50,7 +50,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.MyViewHolder> 
 
         holder.typeTV.setText(item.getType());
         holder.poinTV.setText(item.getPoin() + " Poin");
-        holder.giftTV.setText("Gift Card IDR" + item.getGift());
+        holder.giftTV.setText(item.getGift());
 
         holder.itemCV.setOnClickListener(view -> onClickItem.OnClickItem(item.getId()));
     }

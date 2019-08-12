@@ -1,5 +1,6 @@
 package sehatmaru.memberid;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -93,8 +94,9 @@ public class FeedPage extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_filter) {
+            Intent intent = new Intent(getApplicationContext(), FilterPage.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
@@ -107,13 +109,15 @@ public class FeedPage extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+            Intent intent = new Intent(getApplicationContext(), FeedPage.class);
+            startActivity(intent);
         } else if (id == R.id.nav_card) {
 
         } else if (id == R.id.nav_profile) {
 
         } else if (id == R.id.nav_logout) {
-
+            Intent intent = new Intent(getApplicationContext(), WelcomePage.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

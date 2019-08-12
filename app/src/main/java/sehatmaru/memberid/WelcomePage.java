@@ -58,19 +58,19 @@ public class WelcomePage extends AppCompatActivity {
             itemRealm1.setName("Mobile Card");
             itemRealm1.setPoin("10.000");
             itemRealm1.setType("Voucher");
-            itemRealm1.setGift("100.000");
+            itemRealm1.setGift("Gift Card 100.000");
 
             ItemRealm itemRealm2 = realm.createObject(ItemRealm.class, "2");
             itemRealm2.setName("Phone Card");
             itemRealm2.setPoin("30.000");
             itemRealm2.setType("Voucher");
-            itemRealm2.setGift("300.000");
+            itemRealm2.setGift("Gift Card 300.000");
 
             ItemRealm itemRealm3 = realm.createObject(ItemRealm.class, "3");
-            itemRealm3.setName("iPhone Card");
+            itemRealm3.setName("Cake Card");
             itemRealm3.setPoin("50.000");
             itemRealm3.setType("Product");
-            itemRealm3.setGift("100.000");
+            itemRealm3.setGift("Old Fasion Cake");
         }
 
         realm.commitTransaction();
